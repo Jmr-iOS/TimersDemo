@@ -13,11 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let st = ScheduledTimer();
+        let st2 = ScheduledTimer(duration_ms:120);
         
-        print("A");
-        st.display();
-        print("B");
 
         return;
     }

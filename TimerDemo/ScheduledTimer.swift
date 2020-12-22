@@ -5,13 +5,25 @@ import UIKit
 
 class ScheduledTimer: NSObject {
     
-    var myVar: int = 4;
+    var dur_ms: Int;
     
     override init() {
 
         super.init();
         
-        myVar = 3;
+        self.dur_ms = 0;
+        
+        print("Init()!");
+        
+        return;
+    }
+    
+    
+    init(duration_ms: Int) {
+
+        super.init();
+        
+        self.dur_ms = duration_ms;
      
         print("Init()!");
         
