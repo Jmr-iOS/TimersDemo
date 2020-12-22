@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D04850FB2591C4B7008226A3 /* StdComments-Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "StdComments-Swift.h"; path = "../../../Ref/StdComments/StdComments-Swift.h"; sourceTree = "<group>"; };
 		D09DB4D72591AE6F00C5CFAC /* TimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09DB4DA2591AE6F00C5CFAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D09DB4DC2591AE6F00C5CFAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +40,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D04850FA2591C4A5008226A3 /* Doc */ = {
+			isa = PBXGroup;
+			children = (
+				D04850FB2591C4B7008226A3 /* StdComments-Swift.h */,
+			);
+			name = Doc;
+			sourceTree = "<group>";
+		};
 		D09DB4CE2591AE6E00C5CFAC = {
 			isa = PBXGroup;
 			children = (
+				D04850FA2591C4A5008226A3 /* Doc */,
 				D09DB4D92591AE6F00C5CFAC /* TimerDemo */,
 				D09DB4D82591AE6F00C5CFAC /* Products */,
 			);
