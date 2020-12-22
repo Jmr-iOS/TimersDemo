@@ -52,8 +52,10 @@
 			isa = PBXGroup;
 			children = (
 				D04850FA2591C4A5008226A3 /* Doc */,
-				D09DB4D92591AE6F00C5CFAC /* TimerDemo */,
-				D09DB4D82591AE6F00C5CFAC /* Products */,
+				D0AC55B5259273C30095B6CC /* Source */,
+				D0AC55B62592740B0095B6CC /* Resource */,
+				D09DB4DA2591AE6F00C5CFAC /* AppDelegate.swift */,
+				D09DB4EF2591B08F00C5CFAC /* ScheduledTimer.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,20 +65,29 @@
 				D09DB4D72591AE6F00C5CFAC /* TimerDemo.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
-		D09DB4D92591AE6F00C5CFAC /* TimerDemo */ = {
+		D0AC55B5259273C30095B6CC /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D09DB4EF2591B08F00C5CFAC /* ScheduledTimer.swift */,
 				D09DB4DE2591AE6F00C5CFAC /* ViewController.swift */,
-				D09DB4DA2591AE6F00C5CFAC /* AppDelegate.swift */,
 				D09DB4DC2591AE6F00C5CFAC /* SceneDelegate.swift */,
+			);
+			name = Source;
+			path = TimerDemo;
+			sourceTree = "<group>";
+		};
+		D0AC55B62592740B0095B6CC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D09DB4D82591AE6F00C5CFAC /* Products */,
+				D09DB4E82591AE7B00C5CFAC /* Info.plist */,
+				D09DB4E52591AE7B00C5CFAC /* LaunchScreen.storyboard */,
 				D09DB4E02591AE6F00C5CFAC /* Main.storyboard */,
 				D09DB4E32591AE7B00C5CFAC /* Assets.xcassets */,
-				D09DB4E52591AE7B00C5CFAC /* LaunchScreen.storyboard */,
-				D09DB4E82591AE7B00C5CFAC /* Info.plist */,
 			);
+			name = Resource;
 			path = TimerDemo;
 			sourceTree = "<group>";
 		};

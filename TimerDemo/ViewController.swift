@@ -29,8 +29,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let st2 = ScheduledTimer(duration_ms:120);
-
         return;
     }
 
