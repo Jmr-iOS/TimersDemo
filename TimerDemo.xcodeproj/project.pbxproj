@@ -13,6 +13,7 @@
 		D09DB4E22591AE6F00C5CFAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09DB4E02591AE6F00C5CFAC /* Main.storyboard */; };
 		D09DB4E42591AE7B00C5CFAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09DB4E32591AE7B00C5CFAC /* Assets.xcassets */; };
 		D09DB4E72591AE7B00C5CFAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09DB4E52591AE7B00C5CFAC /* LaunchScreen.storyboard */; };
+		D09DB4F02591B08F00C5CFAC /* ScheduledTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09DB4EF2591B08F00C5CFAC /* ScheduledTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D09DB4E32591AE7B00C5CFAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D09DB4E62591AE7B00C5CFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D09DB4E82591AE7B00C5CFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09DB4EF2591B08F00C5CFAC /* ScheduledTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 		D09DB4D92591AE6F00C5CFAC /* TimerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D09DB4EF2591B08F00C5CFAC /* ScheduledTimer.swift */,
+				D09DB4DE2591AE6F00C5CFAC /* ViewController.swift */,
 				D09DB4DA2591AE6F00C5CFAC /* AppDelegate.swift */,
 				D09DB4DC2591AE6F00C5CFAC /* SceneDelegate.swift */,
-				D09DB4DE2591AE6F00C5CFAC /* ViewController.swift */,
 				D09DB4E02591AE6F00C5CFAC /* Main.storyboard */,
 				D09DB4E32591AE7B00C5CFAC /* Assets.xcassets */,
 				D09DB4E52591AE7B00C5CFAC /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D09DB4DF2591AE6F00C5CFAC /* ViewController.swift in Sources */,
+				D09DB4F02591B08F00C5CFAC /* ScheduledTimer.swift in Sources */,
 				D09DB4DB2591AE6F00C5CFAC /* AppDelegate.swift in Sources */,
 				D09DB4DD2591AE6F00C5CFAC /* SceneDelegate.swift in Sources */,
 			);

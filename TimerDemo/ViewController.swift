@@ -7,11 +7,19 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        let st = ScheduledTimer();
+        
+        print("A");
+        st.display();
+        print("B");
+
+        return;
     }
 
 
