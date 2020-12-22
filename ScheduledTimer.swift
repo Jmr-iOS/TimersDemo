@@ -7,6 +7,13 @@
  *  @created    12/21/20
  *  @last rev    12/21/20
  *
+ *  @section   Demo Operations
+ *          cont            (go forever)
+ *          stop
+ *          start
+ *          clear
+ *          reset
+ *
  *  @section    Opens
  *      - Start
  *      - Stop
@@ -14,6 +21,15 @@
  *      - Change timer routine
  *      - Get Count
  *      - Set Loop Count
+ *      //...
+ *      - interval_ms:Int
+ *      - count:Int
+ *      - init(period_ms:Int)
+ *      - configure()
+ *      - start()
+ *      - stop()
+ *      - reset()
+ *      - scheduled_event() <- called on completion
  *
  *  @section    Reference
  *      1. learnappmaking.com/timer-swift-how-to/
@@ -36,6 +52,8 @@ class ScheduledTimer: NSObject {
     var count : Int;
     var dur_ms: Double;
 
+    var t: Timer?;
+    
     /*------------------------------------------------------------------------------------------------------------------------------*/
     /** @fcn           init(duration_ms: Double)
      *  @brief        x
@@ -51,13 +69,46 @@ class ScheduledTimer: NSObject {
 
         super.init();
              
-        Timer.scheduledTimer(timeInterval: (duration_ms/1000),
-                                   target: self,
-                                 selector: #selector(scheduled_event),
-                                 userInfo: nil,
-                                  repeats: true);
+        t = Timer.scheduledTimer(timeInterval: (duration_ms/1000),
+                                       target: self,
+                                     selector: #selector(scheduled_event),
+                                     userInfo: nil,
+                                      repeats: false);
     
         print("Init(duration_ms)!");
+        
+        return;
+    }
+    
+    
+    //@todo     header
+    func start() {
+
+        //If not running
+        //{
+            //start
+        //}//else
+        //{
+            //ignore request
+        //}
+
+        print("Start!");
+        
+        return;
+    }
+    
+    //@todo     header
+    func stop() {
+
+        //If running
+        //{
+            //stop
+        //}//else
+        //{
+            //ignore request
+        //}
+
+        print("Stop!");
         
         return;
     }

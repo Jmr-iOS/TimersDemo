@@ -55,6 +55,7 @@
 				D0AC55B5259273C30095B6CC /* Source */,
 				D0AC55B62592740B0095B6CC /* Resource */,
 				D09DB4DA2591AE6F00C5CFAC /* AppDelegate.swift */,
+				D09DB4DE2591AE6F00C5CFAC /* ViewController.swift */,
 				D09DB4EF2591B08F00C5CFAC /* ScheduledTimer.swift */,
 			);
 			sourceTree = "<group>";
@@ -71,7 +72,6 @@
 		D0AC55B5259273C30095B6CC /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D09DB4DE2591AE6F00C5CFAC /* ViewController.swift */,
 				D09DB4DC2591AE6F00C5CFAC /* SceneDelegate.swift */,
 			);
 			name = Source;
