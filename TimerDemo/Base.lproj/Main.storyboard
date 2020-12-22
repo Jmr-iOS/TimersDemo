@@ -16,49 +16,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Main" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VkN-7m-pgu">
-                                <rect key="frame" x="169" y="323" width="37" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VkN-7m-pgu">
+                                <rect key="frame" x="169" y="150" width="37" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="center" ambiguous="YES" axis="vertical" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="TNn-hq-3in">
-                                <rect key="frame" x="220" y="406" width="139" height="222"/>
+                            <stackView opaque="NO" contentMode="center" axis="vertical" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="TNn-hq-3in">
+                                <rect key="frame" x="168" y="222.5" width="39" height="222"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ufh-jR-yme">
-                                        <rect key="frame" x="52.5" y="0.0" width="34" height="30"/>
+                                        <rect key="frame" x="2.5" y="0.0" width="34" height="30"/>
                                         <state key="normal" title="Start"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMJ-0c-4NA">
-                                        <rect key="frame" x="53.5" y="48" width="32" height="30"/>
+                                        <rect key="frame" x="3.5" y="48" width="32" height="30"/>
                                         <state key="normal" title="Stop"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2T-j7-0iO">
-                                        <rect key="frame" x="53" y="96" width="33" height="30"/>
+                                        <rect key="frame" x="3" y="96" width="33" height="30"/>
                                         <state key="normal" title="Cont"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6t-a1-Nla">
-                                        <rect key="frame" x="51.5" y="144" width="36" height="30"/>
+                                        <rect key="frame" x="1.5" y="144" width="36" height="30"/>
                                         <state key="normal" title="Clear"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWH-ok-JWH">
-                                        <rect key="frame" x="50" y="192" width="39" height="30"/>
+                                        <rect key="frame" x="0.0" y="192" width="39" height="30"/>
                                         <state key="normal" title="Reset"/>
                                     </button>
                                 </subviews>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="139" id="gsK-Hj-a6s"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="TNn-hq-3in" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="250" id="7Iu-mY-lyk"/>
-                            <constraint firstItem="TNn-hq-3in" firstAttribute="top" secondItem="VkN-7m-pgu" secondAttribute="bottom" constant="200" id="oK6-uh-i7S"/>
-                            <constraint firstItem="TNn-hq-3in" firstAttribute="top" secondItem="VkN-7m-pgu" secondAttribute="bottom" constant="162" id="qQS-aP-OFc"/>
-                            <constraint firstItem="TNn-hq-3in" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="220" id="xiJ-WY-YOz"/>
+                            <constraint firstItem="VkN-7m-pgu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="11s-aB-2h2"/>
+                            <constraint firstItem="TNn-hq-3in" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8el-A3-uZc"/>
+                            <constraint firstItem="TNn-hq-3in" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gNG-1p-j83"/>
+                            <constraint firstItem="VkN-7m-pgu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gnP-vt-vau"/>
                         </constraints>
                     </view>
                     <connections>

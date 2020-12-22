@@ -36,8 +36,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Override point for customization after application launch.
         
-        let _ = ScheduledTimer(duration_ms:120);
-
         return true;
     }
 
